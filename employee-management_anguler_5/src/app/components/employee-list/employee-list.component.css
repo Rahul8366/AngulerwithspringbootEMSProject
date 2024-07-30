@@ -1,0 +1,31 @@
+
+  .btn {
+    margin-right: 5px;
+  }
+
+.table td {
+  margin-top: '5%';
+  text-align: center; 
+}
+
+.table td img {
+  width: auto;
+  height: auto;
+  display: block; 
+  margin: 0 auto; 
+  max-width: 100px; /* Adjust as necessary */
+  border: 1px solid #ddd; /* Optional: to add a border to the images */
+  padding: 5px;
+  background-color: #fff; /* Ensure background is white */
+}
+.table th {
+  text-align: center; 
+}
+.img-thumbnail {
+  background-color: transparent; /* Ensure no white background */
+  border: none; /* Remove borders if needed */
+}
+
+.modal-body {
+  text-align: center; /* Center the image */
+}

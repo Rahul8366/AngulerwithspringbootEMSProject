@@ -1,0 +1,11 @@
+<div class="container mt-3">
+    <input type="file" (change)="onFileSelected($event)" class="form-control mb-2">
+    <button (click)="onUpload()" class="btn btn-primary">Upload</button>
+  
+    <div *ngIf="showAlert" class="alert alert-success alert-dismissible fade show mt-3" role="alert">
+      File uploaded successfully! 
+      <a [href]="uploadUrl" class="alert-link" target="_blank">View Uploaded Image</a>
+      <button type="button" class="btn-close" (click)="clearAlert()" aria-label="Close"></button>
+    </div>
+  </div>
+  
